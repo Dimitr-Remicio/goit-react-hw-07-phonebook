@@ -89,7 +89,7 @@ input:hover {
   }
   .container {
     margin: 0 auto;
-    width: 70vw;
+    width: 80vw;
     height: auto;
     padding: 10px;
 
@@ -102,4 +102,19 @@ input:hover {
   input {
     transition: all 100ms ease;
   }
+}
+
+.allContacts{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.allContacts i{
+  cursor: pointer;
+  color: var(--state-2);
+  transition: all 300ms ease;
+
+
+  
 }
